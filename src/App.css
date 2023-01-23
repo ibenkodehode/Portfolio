@@ -1,0 +1,22 @@
+#root {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/src/img/siri.jpg");
+  background-size: cover;
+}
+
+.app {
+  z-index: -10;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+
+  width: 90vw;
+  height: 100vh;
+}
