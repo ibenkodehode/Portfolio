@@ -1,0 +1,61 @@
+.container {
+  background-image: url("src/img/pink-code-illu.svg");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 100px);
+
+  background-size: 40vw;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fornavn {
+  font-size: 4rem;
+  margin: 2rem 2rem 1rem 2rem;
+}
+.etternavn {
+  font-size: 4rem;
+
+  margin: 1rem 2rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  width: 50%;
+
+  margin: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    background-image: url("src/img/pink-code-illu.svg");
+    background-repeat: no-repeat;
+    background-position: 75% 35%;
+    /* background-size: 50%; */
+  }
+
+  h1 {
+    font-size: 3rem;
+
+    margin: 1rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+
+    width: 70%;
+    height: 20vh;
+  }
+
+  span {
+    display: none;
+  }
+}
