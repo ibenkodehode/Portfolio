@@ -1,6 +1,6 @@
 // Libraries
 import { useRef } from "react";
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 // Styles
 import "./App.css";
