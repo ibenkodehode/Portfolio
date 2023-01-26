@@ -15,12 +15,12 @@
 
 .fornavn {
   font-size: 4rem;
-  margin: 2rem 2rem 1rem 2rem;
+  margin: 2rem 2rem 1rem 3rem;
 }
 .etternavn {
   font-size: 4rem;
 
-  margin: 1rem 2rem;
+  margin: 1rem 2rem 2rem 3rem;
   font-style: italic;
   font-weight: 400;
 }
@@ -31,7 +31,7 @@ h5 {
 
   width: 50%;
 
-  margin: 2rem;
+  margin: 2rem 3rem;
 }
 
 @media only screen and (max-width: 700px) {
