@@ -1,0 +1,32 @@
+<svg width="653" height="374" viewBox="0 0 653 374" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="653" height="374" rx="5" fill="white" fill-opacity="0.06"/>
+<g opacity="0.3">
+<path d="M76.1016 75H36V85.56H76.1016V75Z" fill="white"/>
+<path d="M61.5192 131.32H36V141.88H61.5192V131.32Z" fill="#B3B3B3"/>
+<path d="M198.229 131.32H172.71V141.88H198.229V131.32Z" fill="#B3B3B3"/>
+<path d="M247.444 187.64H221.925V198.2H247.444V187.64Z" fill="#D1D1D1"/>
+<path d="M247.444 272.12H221.925V282.68H247.444V272.12Z" fill="#B3B3B3"/>
+<path d="M160.497 131.32H72.4561V141.88H160.497V131.32Z" fill="#EFEFEF"/>
+<path d="M173.074 103.16H36V113.72H173.074V103.16Z" fill="#DADADA"/>
+<path d="M209.531 187.64H72.4561V198.2H209.531V187.64Z" fill="#DADADA"/>
+<path d="M209.531 272.12H72.4561V282.68H209.531V272.12Z" fill="#B3B3B3"/>
+<path d="M142.087 300.28H114.38V310.84H142.087V300.28Z" fill="#B3B3B3"/>
+<path d="M182.188 300.28H154.482V310.84H182.188V300.28Z" fill="#DADADA"/>
+<path d="M222.29 300.28H194.583V310.84H222.29V300.28Z" fill="#EFEFEF"/>
+<path d="M262.392 300.28H234.685V310.84H262.392V300.28Z" fill="#D1D1D1"/>
+<path d="M300.67 300.28H272.964V310.84H300.67V300.28Z" fill="#EFEFEF"/>
+<path d="M247.08 215.8H127.14V226.36H247.08V215.8Z" fill="#EFEFEF"/>
+<path d="M258.381 187.64H359V198.2H258.381V187.64Z" fill="#DADADA"/>
+<path d="M258.381 272.12H359V282.68H258.381V272.12Z" fill="#DADADA"/>
+<path d="M114.38 328.44H214.999V339H114.38V328.44Z" fill="#D1D1D1"/>
+<path d="M114.38 215.8H72.4561V226.36H114.38V215.8Z" fill="#D1D1D1"/>
+<path d="M300.306 215.8H258.381V226.36H300.306V215.8Z" fill="#B3B3B3"/>
+<path d="M130.239 159.48H36V170.04H130.239V159.48Z" fill="#D1D1D1"/>
+<path d="M93.7827 243.96H36V254.52H93.7827V243.96Z" fill="white"/>
+</g>
+<rect width="653" height="374" rx="5" fill="#E8EBFF" fill-opacity="0.21"/>
+<path d="M0 5C0 2.23858 2.23858 0 5 0H648C650.761 0 653 2.23858 653 5V44H0V5Z" fill="white" fill-opacity="0.2"/>
+<circle cx="63" cy="23" r="7" fill="#88FF94" fill-opacity="0.5"/>
+<circle cx="29" cy="23" r="7" fill="#FF7171" fill-opacity="0.5"/>
+<circle cx="46" cy="23" r="7" fill="white" fill-opacity="0.4"/>
+</svg>
