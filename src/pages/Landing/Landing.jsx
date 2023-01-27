@@ -3,7 +3,7 @@ import styles from "./Landing.module.css";
 const Landing = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.fornavn}>Iben</h1>
+      <h1 className={styles.h1}>Iben</h1>
       <h1 className={styles.etternavn}>Kodehode</h1>
       <h5 className={styles.h5}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
