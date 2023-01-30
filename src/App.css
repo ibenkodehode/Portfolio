@@ -16,48 +16,4 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-end;
 }
-
-nav {
-  display: inline;
-  margin-right: 2rem;
-}
-
-.top-btn {
-  font-size: 2rem;
-  position: -webkit-sticky; /* for Safari */
-  position: sticky;
-  top: 2rem;
-  margin: 2rem;
-  align-self: end;
-  font-size: 3rem;
-}
-
-main {
-  position: relative;
-
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-button {
-  border: none;
-  background: none;
-
-  font-size: 1.5rem;
-  margin: 0.5rem;
-
-  cursor: pointer;
-
-  color: rgba(255, 255, 255, 0.87);
-}
-
-button:hover {
-  color: rgba(226, 226, 226, 0.87);
-}
-
-/* @media only screen and (max-width: 600px) {
-
-} */
