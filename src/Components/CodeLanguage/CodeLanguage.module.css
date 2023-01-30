@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  justify-items: center;
+}
+
+/* Tools used daily ---------------------------- */
+.wrap {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 0.5rem;
+}
+@media (max-width: 600px) {
+  .wrap {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.headline {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.icon {
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 2.5rem;
+
+  transition: 0.5s;
+}
+.icon:hover {
+  color: rgba(255, 255, 255, 0.886);
+
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 6px #f15aa5c0) drop-shadow(0 0 6px #f15aa5c0)
+    drop-shadow(0 0 4px #f15aa5c0);
+}
+
+/* Icons known ---------------------------- */
+.wrapped {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.headlines {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+.icons {
+  color: rgba(255, 255, 255, 0.479);
+  font-size: 2rem;
+
+  transition: 0.5s;
+}
+.icons:hover {
+  color: rgb(255, 255, 255);
+
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 6px #e9ff23c0) drop-shadow(0 0 6px #e9ff23c0);
+}
