@@ -1,4 +1,5 @@
 // styles
+// import { HashLink } from "react-router-dom";
 import styles from "./Navbar.modules.css";
 
 const Navbar = () => {
@@ -8,6 +9,7 @@ const Navbar = () => {
         <ul className={styles.ul}>
           <li>
             <a href="#prosjekter">PROSJEKTER</a>
+            {/* <Link to="#prosjekter"></Link> */}
           </li>
           <li>
             <a href="#om">OM</a>
