@@ -1,22 +1,23 @@
 // Libraries
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Styles
 import "./App.css";
 
-// Pages
+// Routes
 import Home from "./pages/Home/Home";
+import Error from "./pages/Error/Error";
 
 function App() {
   return (
     <div className="app">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
-
 export default App;

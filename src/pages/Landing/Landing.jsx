@@ -1,8 +1,8 @@
 // styles
 import styles from "./Landing.module.css";
 
-//Components
-import Icons from "../../Components/CodeLanguage/CodeLanguage";
+// components
+import Icons from "../../components/CodeLanguage/CodeLanguage";
 
 const Landing = () => {
   return (

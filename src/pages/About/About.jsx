@@ -1,10 +1,13 @@
+// styles
 import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.container}>
-      <p>About</p>
-    </div>
+    <section id="om">
+      <div className={styles.container}>
+        <p>Om</p>
+      </div>
+    </section>
   );
 };
 

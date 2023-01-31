@@ -1,10 +1,13 @@
+// styles
 import styles from "./Project.module.css";
 
 const Projects = () => {
   return (
-    <div className={styles.container}>
-      <p>Projects</p>
-    </div>
+    <section id="prosjekter">
+      <div className={styles.container}>
+        <p>Prosjekter</p>
+      </div>
+    </section>
   );
 };
 

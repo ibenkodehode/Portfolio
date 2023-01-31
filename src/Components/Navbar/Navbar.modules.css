@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: end;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+}
+
+/* .top-btn {
+  font-size: 2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+  margin: 2rem;
+  align-self: end;
+  font-size: 3rem;
+} */
+
+/* button {
+  border: none;
+  background: none;
+
+  font-size: 1.5rem;
+  margin: 0.5rem;
+
+  cursor: pointer;
+
+  color: rgba(255, 255, 255, 0.87);
+}
+
+button:hover {
+  color: rgba(226, 226, 226, 0.87);
+}
+
+main {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
