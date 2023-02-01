@@ -19,7 +19,7 @@ const Landing = () => {
           </span>
         </p>
       </article>
-      <article className={styles.icons}>
+      <article>
         <Icons />
       </article>
     </section>

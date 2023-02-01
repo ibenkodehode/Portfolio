@@ -19,12 +19,12 @@
 }
 
 .firstname {
-  font-size: clamp(2rem, 3rem + 1.6vw, 6rem);
+  font-size: clamp(2rem, 4vw, 6rem);
   margin: 0rem 3rem;
 }
 
 .lastname {
-  font-size: clamp(2rem, 2rem + 1.6vw, 6rem);
+  font-size: clamp(2rem, 4vw, 6rem);
   margin: 0rem 3rem;
 
   font-style: italic;
