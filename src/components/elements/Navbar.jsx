@@ -1,6 +1,6 @@
 // styles
 // import { HashLink } from "react-router-dom";
-import styles from "./Navbar.modules.css";
+import styles from "../styles/Navbar.modules.css";
 
 const Navbar = () => {
   return (

@@ -1,14 +1,14 @@
 // styles
-import styles from "./Landing.module.css";
+import styles from "../styles/Landing.module.css";
 
 // components
-import Icons from "../../components/CodeLanguage/CodeLanguage";
+import Icons from "../elements/CodeLanguage";
 
 const Landing = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.landing}>
       <article className={styles.intro}>
-        <h1 className={styles.h1}>Iben</h1>
+        <h1 className={styles.head}>Iben</h1>
         <h1 className={styles.etternavn}>Kodehode</h1>
         <p className={styles.h5}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

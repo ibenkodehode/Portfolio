@@ -5,8 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // Routes
-import Home from "./pages/Home/Home";
-import Error from "./pages/Error/Error";
+import Home from "./components/routes/Home";
+import Error from "./components/routes/Error";
 
 function App() {
   return (

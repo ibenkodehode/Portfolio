@@ -1,5 +1,5 @@
 //Styles
-import styles from "./CodeLanguage.module.css";
+import styles from "../styles/CodeLanguage.module.css";
 
 // Icons
 import { DiGithubBadge } from "react-icons/di"; //github
