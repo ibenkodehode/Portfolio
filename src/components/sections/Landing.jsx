@@ -2,7 +2,7 @@
 import styles from "../styles/Landing.module.css";
 
 // components
-import Icons from "../elements/CodeLanguage";
+import Icons from "../elements/CodeIcons";
 
 const Landing = () => {
   return (

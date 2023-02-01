@@ -1,5 +1,5 @@
 //Styles
-import styles from "../styles/CodeLanguage.module.css";
+import styles from "../styles/CodeIcons.module.css";
 
 // Icons
 import { DiGithubBadge } from "react-icons/di"; //github
@@ -16,10 +16,10 @@ import { DiNpm } from "react-icons/di"; //npm
 
 const Icons = () => {
   return (
-    <div>
+    <>
       <div className={styles.container}>
         <h2 className={styles.headline}>Verktøy jeg bruker daglig </h2>
-        <div className={styles.wrap}>
+        <div className={styles.grid}>
           <DiGithubBadge className={styles.icon} />
           <DiJavascript1 className={styles.icon} />
           <SiCss3 className={styles.icon} />
@@ -32,13 +32,13 @@ const Icons = () => {
       </div>
       <div className={styles.container}>
         <h3 className={styles.headlines}>Verktøy jeg er kjent med</h3>
-        <div className={styles.wrapped}>
+        <div className={styles.grids}>
           <DiGit className={styles.icons} />
           <SiTailwindcss className={styles.icons} />
           <DiNpm className={styles.icons} />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,17 +1,18 @@
 .container {
+  margin: 1rem;
   display: grid;
   justify-items: center;
 }
 
-/* Tools used daily ---------------------------- */
-.wrap {
-  margin: 1rem;
+/* Icons used daily ---------------------------- */
+.grid {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 0.5rem;
+  margin: 0.5rem;
 }
 @media (max-width: 550px) {
-  .wrap {
+  .grid {
     grid-template-columns: repeat(4, 1fr);
   }
 }
@@ -20,34 +21,36 @@
   font-size: 1rem;
 }
 .icon {
-  color: rgba(255, 255, 255, 0.479);
-  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.505);
+  font-size: clamp(1rem, 0.4rem + 2.4vw, 3rem);
 
   transition: 0.5s;
 }
 .icon:hover {
-  color: rgba(255, 255, 255, 0.886);
+  color: rgba(255, 255, 255, 0.89);
 
   transform: scale(1.1);
-  filter: drop-shadow(0 0 6px #f15aa5c0) drop-shadow(0 0 6px #f15aa5c0)
-    drop-shadow(0 0 4px #f15aa5c0);
+  filter: drop-shadow(0 0 6px #f15aa58a) drop-shadow(0 0 6px #f15aa58a)
+    drop-shadow(0 0 6px #f15aa58a);
+  overflow: visible;
 }
 
 /* Icons known ---------------------------- */
-.wrapped {
-  margin: 1rem;
+.grids {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.5rem;
+  margin: 0.3rem;
 }
 
 .headlines {
   font-weight: 400;
   font-size: 0.9rem;
 }
+
 .icons {
-  color: rgba(255, 255, 255, 0.479);
-  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.505);
+  font-size: clamp(0.8rem, 0.4rem + 2.4vw, 2.5rem);
 
   transition: 0.5s;
 }
@@ -56,4 +59,5 @@
 
   transform: scale(1.1);
   filter: drop-shadow(0 0 6px #e9ff23c0) drop-shadow(0 0 6px #e9ff23c0);
+  overflow: visible;
 }
