@@ -6,11 +6,11 @@ import Icons from "../elements/CodeLanguage";
 
 const Landing = () => {
   return (
-    <section className={styles.landing}>
-      <article className={styles.intro}>
-        <h1 className={styles.head}>Iben</h1>
-        <h1 className={styles.etternavn}>Kodehode</h1>
-        <p className={styles.h5}>
+    <section className={styles.section}>
+      <article className={styles.introduction}>
+        <h1 className={styles.firstname}>Iben</h1>
+        <h1 className={styles.lastname}>Kodehode</h1>
+        <p className={styles.intro}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
           <span className={styles.span}>
@@ -19,7 +19,7 @@ const Landing = () => {
           </span>
         </p>
       </article>
-      <article className={styles.icon}>
+      <article className={styles.icons}>
         <Icons />
       </article>
     </section>

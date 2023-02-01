@@ -1,4 +1,4 @@
-.landing {
+.section {
   background-image: url("../../img/pink-code-illu.svg");
   background-repeat: no-repeat;
   background-position: 80% 5%;
@@ -13,31 +13,43 @@
   flex-direction: column;
 }
 
-.intro {
+.introduction {
   margin-top: 10%;
   margin-bottom: 5%;
 }
 
-h1 {
-  font-size: clamp(4rem, 1rem + 1.6vw, 6rem);
+.firstname {
+  font-size: clamp(2rem, 3rem + 1.6vw, 6rem);
   margin: 0rem 3rem;
 }
 
-.etternavn {
+.lastname {
+  font-size: clamp(2rem, 2rem + 1.6vw, 6rem);
+  margin: 0rem 3rem;
+
   font-style: italic;
   font-weight: 400;
 }
 
-p {
+.intro {
   font-size: clamp(1rem, 0.625rem + 1.6667vw, 1.5rem);
   font-weight: 400;
-  width: clamp(250px, 55%, 900px);
+  width: clamp(100px, 55%, 900px);
 
   margin: 1rem 3rem;
 }
 
 @media only screen and (width <= 700px) {
-  span {
+  .span {
     display: none;
+  }
+}
+
+@media only screen and (width <= 550px) {
+  .section {
+    background-image: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
