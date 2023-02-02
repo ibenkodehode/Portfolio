@@ -20,12 +20,10 @@
 
 .firstname {
   font-size: clamp(2rem, 4vw, 6rem);
-  margin: 0rem 3rem;
 }
 
 .lastname {
   font-size: clamp(2rem, 4vw, 6rem);
-  margin: 0rem 3rem;
 
   font-style: italic;
   font-weight: 400;
@@ -35,8 +33,6 @@
   font-size: clamp(0.5rem, 0.2rem + 2vw, 1.2rem);
   font-weight: 400;
   width: clamp(190px, 40vw, 500px);
-
-  margin: 1rem 3rem;
 }
 
 @media only screen and (width <= 700px) {

@@ -1,17 +1,24 @@
 // styles
-// import { HashLink } from "react-router-dom";
-import styles from "../styles/Navbar.modules.css";
+import styles from "../styles/Navbar.module.css";
+
+// logo
+import logo from "../../img/ibnlogo.svg";
 
 const Navbar = () => {
   return (
     <header id="top-page" className={styles.header}>
       <nav className={styles.nav}>
+        <img src={logo} alt="logo" className={styles.logo} />
         <ul className={styles.ul}>
-          <li>
-            <a href="#prosjekter">PROSJEKTER</a>
+          <li className={styles.li}>
+            <a className={styles.link} href="#prosjekter">
+              PROSJEKTER
+            </a>
           </li>
-          <li>
-            <a href="#om">OM</a>
+          <li className={styles.li}>
+            <a className={styles.link} href="#om">
+              OM
+            </a>
           </li>
         </ul>
       </nav>

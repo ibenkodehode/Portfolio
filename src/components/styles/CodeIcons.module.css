@@ -17,12 +17,12 @@
   }
 }
 .headline {
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
 }
 .icon {
   color: rgba(255, 255, 255, 0.505);
-  font-size: clamp(1rem, 0.4rem + 2.4vw, 3rem);
+  font-size: clamp(2rem, 4vw, 3rem);
 
   transition: 0.5s;
 }
@@ -30,8 +30,7 @@
   color: rgba(255, 255, 255, 0.89);
 
   transform: scale(1.1);
-  filter: drop-shadow(0 0 6px #f15aa58a) drop-shadow(0 0 6px #f15aa58a)
-    drop-shadow(0 0 6px #f15aa58a);
+  filter: drop-shadow(0 0 8px #7272728a) drop-shadow(0 0 8px #5bdeff8a);
   overflow: visible;
 }
 
@@ -45,12 +44,12 @@
 
 .headlines {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .icons {
   color: rgba(255, 255, 255, 0.505);
-  font-size: clamp(0.8rem, 0.4rem + 2.4vw, 2.5rem);
+  font-size: clamp(1rem, 4vw, 2.5rem);
 
   transition: 0.5s;
 }
@@ -58,6 +57,6 @@
   color: rgb(255, 255, 255);
 
   transform: scale(1.1);
-  filter: drop-shadow(0 0 6px #e9ff23c0) drop-shadow(0 0 6px #e9ff23c0);
+  filter: drop-shadow(0 0 8px #7272728a) drop-shadow(0 0 5px #ffed23c0);
   overflow: visible;
 }
