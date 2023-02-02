@@ -1,7 +1,9 @@
 //Sections
 import Navbar from "../elements/Navbar";
 import Landing from "../sections/Landing";
+import Icons from "../elements/CodeIcons";
 import Projects from "../sections/Projects";
+import Favorites from "../sections/Favorites";
 import About from "../sections/About";
 
 // Navigation arrow
@@ -15,11 +17,16 @@ const Home = () => {
     <div className={styles.container}>
       <Navbar />
       <Landing />
+      <Icons />
       <Arrow />
       <Projects />
+      <Favorites />
       <About />
     </div>
   );
 };
 
 export default Home;
+
+// TODO
+// footer

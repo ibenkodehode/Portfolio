@@ -19,7 +19,7 @@ const Icons = () => {
     <>
       <div className={styles.container}>
         <h2 className={styles.headline}>Verktøy jeg bruker daglig </h2>
-        <div className={styles.grid}>
+        <div className={styles.flex}>
           <DiGithubBadge className={styles.icon} />
           <DiJavascript1 className={styles.icon} />
           <SiCss3 className={styles.icon} />
@@ -32,7 +32,7 @@ const Icons = () => {
       </div>
       <div className={styles.container}>
         <h3 className={styles.headlines}>Verktøy jeg er kjent med</h3>
-        <div className={styles.grids}>
+        <div className={styles.flex}>
           <DiGit className={styles.icons} />
           <SiTailwindcss className={styles.icons} />
           <DiNpm className={styles.icons} />

@@ -1,9 +1,6 @@
 // styles
 import styles from "../styles/Landing.module.css";
 
-// components
-import Icons from "../elements/CodeIcons";
-
 const Landing = () => {
   return (
     <section className={styles.section}>
@@ -18,9 +15,6 @@ const Landing = () => {
             nisi ut aliquip ex ea commodo consequat.
           </span>
         </p>
-      </article>
-      <article>
-        <Icons />
       </article>
     </section>
   );

@@ -4,18 +4,6 @@
   background-position: 80% 5%;
 
   background-size: clamp(200px, 30vw, 900px);
-
-  width: 100%;
-
-  display: flex;
-  justify-content: space-evenly;
-  /* align-items: center; */
-  flex-direction: column;
-}
-
-.introduction {
-  margin-top: 10%;
-  margin-bottom: 5%;
 }
 
 .firstname {

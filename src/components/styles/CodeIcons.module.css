@@ -1,28 +1,26 @@
 .container {
-  margin: 1rem;
-  display: grid;
-  justify-items: center;
+  text-align: center;
+
+  margin: 3rem 0;
 }
 
 /* Icons used daily ---------------------------- */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-gap: 0.5rem;
-  margin: 0.5rem;
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+
+  margin: 1rem 0;
 }
-@media (max-width: 550px) {
-  .grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+
 .headline {
   font-weight: 400;
   font-size: 1.2rem;
 }
 .icon {
   color: rgba(255, 255, 255, 0.505);
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: clamp(2.5rem, 4vw, 5rem);
 
   transition: 0.5s;
 }
@@ -30,16 +28,9 @@
   color: rgba(255, 255, 255, 0.89);
 
   transform: scale(1.1);
+
   filter: drop-shadow(0 0 8px #7272728a) drop-shadow(0 0 8px #5bdeff8a);
   overflow: visible;
-}
-
-/* Icons known ---------------------------- */
-.grids {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.5rem;
-  margin: 0.3rem;
 }
 
 .headlines {
@@ -49,7 +40,7 @@
 
 .icons {
   color: rgba(255, 255, 255, 0.505);
-  font-size: clamp(1rem, 4vw, 2.5rem);
+  font-size: clamp(2rem, 4vw, 3rem);
 
   transition: 0.5s;
 }
