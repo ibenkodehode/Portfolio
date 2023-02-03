@@ -4,7 +4,7 @@ import styles from "../styles/Landing.module.css";
 const Landing = () => {
   return (
     <section className={styles.section}>
-      <article className={styles.introduction}>
+      <div className={styles.introduction}>
         <h1 className={styles.firstname}>Iben</h1>
         <h1 className={styles.lastname}>Kodehode</h1>
         <p className={styles.intro}>
@@ -15,7 +15,7 @@ const Landing = () => {
             nisi ut aliquip ex ea commodo consequat.
           </span>
         </p>
-      </article>
+      </div>
     </section>
   );
 };

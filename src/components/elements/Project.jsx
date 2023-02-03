@@ -2,7 +2,7 @@ import styles from "../styles/Prosject.module.css";
 
 const Project = () => {
   return (
-    <article className={styles.card}>
+    <div className={styles.card}>
       <div className={styles.img}>img</div>
       {/* <img src="" alt="" /> */}
       <div className={styles.flex}>
@@ -12,7 +12,7 @@ const Project = () => {
         </div>
         <div>Icon</div>
       </div>
-    </article>
+    </div>
   );
 };
 

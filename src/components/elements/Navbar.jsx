@@ -16,8 +16,13 @@ const Navbar = () => {
             </a>
           </li>
           <li className={styles.li}>
+            <a className={styles.link} href="#fav">
+              FAVORITTER
+            </a>
+          </li>
+          <li className={styles.li}>
             <a className={styles.link} href="#om">
-              OM
+              OM MEG
             </a>
           </li>
         </ul>
