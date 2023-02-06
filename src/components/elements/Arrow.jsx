@@ -2,7 +2,7 @@
 import { FiArrowUp } from "react-icons/fi";
 
 // styles
-import styles from "../styles/Arrow.modules.css";
+import styles from "../styles/Arrow.module.css";
 
 const Arrow = () => {
   return (
