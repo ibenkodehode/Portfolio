@@ -16,8 +16,8 @@ import { DiNpm } from "react-icons/di"; //npm
 
 const Icons = () => {
   return (
-    <>
-      <aside className={styles.container}>
+    <aside>
+      <div className={styles.container}>
         <h2 className={styles.headline}>Verktøy jeg bruker daglig </h2>
         <div className={styles.flex}>
           <DiGithubBadge className={styles.icon} />
@@ -29,16 +29,16 @@ const Icons = () => {
           <DiVisualstudio className={styles.icon} />
           <DiReact className={styles.icon} />
         </div>
-      </aside>
-      <aside className={styles.container}>
+      </div>
+      <div className={styles.container}>
         <h3 className={styles.headlines}>Verktøy jeg er kjent med</h3>
         <div className={styles.flex}>
           <DiGit className={styles.icons} />
           <SiTailwindcss className={styles.icons} />
           <DiNpm className={styles.icons} />
         </div>
-      </aside>
-    </>
+      </div>
+    </aside>
   );
 };
 

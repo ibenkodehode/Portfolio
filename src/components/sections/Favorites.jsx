@@ -2,7 +2,7 @@ import styles from "../styles/Favorites.module.css";
 
 const Favorites = () => {
   return (
-    <section className={styles.section} id="fav">
+    <section id="fav">
       <header>
         <h3 className={styles.header}>Favoritter</h3>
       </header>

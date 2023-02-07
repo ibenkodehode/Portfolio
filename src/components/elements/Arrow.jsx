@@ -8,7 +8,7 @@ const Arrow = () => {
   return (
     <div className={styles.arrow}>
       <a href="#top-page">
-        <FiArrowUp />
+        <FiArrowUp color="white" />
       </a>
     </div>
   );

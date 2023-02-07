@@ -7,12 +7,10 @@
   border-radius: 1%;
 
   transition: 2s;
-
-  flex: 200px;
-  flex-direction: column;
 }
 
 .wrap {
+  /* relative to contain overlay */
   position: relative;
 }
 
@@ -70,7 +68,6 @@
 }
 
 .icon {
-  font-size: 2rem;
-
+  font-size: 1.5rem;
   margin-top: 1rem;
 }

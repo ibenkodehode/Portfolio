@@ -1,10 +1,10 @@
-.section {
+.sect {
   background-image: url("../../img/pink-code-illu.svg");
   background-repeat: no-repeat;
   background-position: 80% 5%;
   background-size: clamp(200px, 30vw, 900px);
 
-  align-items: baseline;
+  align-items: flex-start;
 }
 
 .firstname {
