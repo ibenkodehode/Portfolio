@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://ibenkodehode.github.io/",
+  // "homepage": "https://ibenkodehode.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
