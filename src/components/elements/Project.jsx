@@ -6,7 +6,7 @@ const Project = (props) => {
       <div className={styles.wrap}>
         <img src={props.src} alt={props.alt} className={styles.img} />{" "}
         <div className={styles.overlay}>
-          <a href={props.link} className={styles.link}>
+          <a href={props.link} className={styles.link} target="_blank">
             {props.link}
           </a>
           <div className={styles.icon}>{props.icon}</div>
