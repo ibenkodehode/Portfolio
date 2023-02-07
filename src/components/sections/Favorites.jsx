@@ -4,7 +4,7 @@ const Favorites = () => {
   return (
     <section className={styles.section} id="fav">
       <header>
-        <h3>Favoritter</h3>
+        <h3 className={styles.header}>Favoritter</h3>
       </header>
 
       <div className={styles.first}>

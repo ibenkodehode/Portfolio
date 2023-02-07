@@ -3,14 +3,17 @@ import styles from "../styles/Project.module.css";
 const Project = (props) => {
   return (
     <div className={styles.card} style={{ "--hover_color": props.hoverColor }}>
-      <img src={props.src} alt={props.alt} className={styles.img} />
-      <div className={styles.flex}>
-        <div>
-          <h3 className={styles.h3}>{props.title}</h3>
-          <p className={styles.p}>{props.link}</p>
+      <div className={styles.wrap}>
+        <img src={props.src} alt={props.alt} className={styles.img} />{" "}
+        <div className={styles.overlay}>
+          <a href={props.link} className={styles.link}>
+            {props.link}
+          </a>
+          <div className={styles.icon}>{props.icon}</div>
         </div>
-        <div>{props.icon}</div>
       </div>
+
+      <h3 className={styles.title}>{props.title}</h3>
     </div>
   );
 };

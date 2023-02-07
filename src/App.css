@@ -7,15 +7,16 @@
 
 .app {
   background: rgba(207, 207, 207, 0.35);
+
   box-shadow: 0 8px 32px 0 rgba(92, 92, 92, 0.37);
   backdrop-filter: blur(9px);
   -webkit-backdrop-filter: blur(10px);
 
   width: clamp(95%, 80vw, 80vw);
 
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
 
   padding: 2rem;
 }
