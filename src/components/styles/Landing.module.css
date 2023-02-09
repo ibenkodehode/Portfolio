@@ -24,7 +24,7 @@
   width: clamp(190px, 40vw, 500px);
 }
 
-@media only screen and (width <= 700px) {
+@media only screen and (width <= 1100px) {
   .section {
     min-height: 45vh;
   }

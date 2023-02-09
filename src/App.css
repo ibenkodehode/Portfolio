@@ -14,9 +14,5 @@
 
   width: clamp(95%, 80vw, 80vw);
 
-  /* display: flex;
-  justify-content: center;
-  flex-direction: column; */
-
   padding: 2rem 2rem 0 2rem;
 }

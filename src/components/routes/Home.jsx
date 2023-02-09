@@ -19,8 +19,8 @@ const Home = () => {
       <Landing />
       <Icons />
       <Arrow />
-      <Projects />
       <About />
+      <Projects />
       <Footer />
     </div>
   );
@@ -33,3 +33,6 @@ export default Home;
 // Hamburger menu
 // Scroll effect
 // New bg?
+// padding landing text
+// større font icons
+// weather app link
