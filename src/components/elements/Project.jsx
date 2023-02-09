@@ -4,7 +4,7 @@ const Project = (props) => {
   return (
     <div className={styles.card} style={{ "--hover_color": props.hoverColor }}>
       <div className={styles.wrap}>
-        <img src={props.src} alt={props.alt} className={styles.img} />{" "}
+        <img src={props.src} alt={props.alt} className={styles.img} />
         <div className={styles.overlay}>
           <a href={props.link} className={styles.link} target="_blank">
             {props.link}

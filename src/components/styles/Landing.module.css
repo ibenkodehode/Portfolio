@@ -1,4 +1,4 @@
-.sect {
+.section {
   background-image: url("../../img/pink-code-illu.svg");
   background-repeat: no-repeat;
   background-position: 80% 5%;
@@ -8,11 +8,11 @@
 }
 
 .firstname {
-  font-size: clamp(2rem, 4vw, 6rem);
+  font-size: clamp(2rem, 5vw, 6rem);
 }
 
 .lastname {
-  font-size: clamp(2rem, 4vw, 6rem);
+  font-size: clamp(2rem, 5vw, 6rem);
 
   font-style: italic;
   font-weight: 400;
@@ -25,6 +25,10 @@
 }
 
 @media only screen and (width <= 700px) {
+  .section {
+    min-height: 45vh;
+  }
+
   .span {
     display: none;
   }

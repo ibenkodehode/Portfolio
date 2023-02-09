@@ -1,27 +1,42 @@
-.first,
-.second {
+.wrap {
   display: flex;
-  justify-content: center;
+  justify-content: baseline;
+  position: relative;
+
+  margin: 4%;
 }
 
-.text {
+.overalls {
+  margin: -5rem -5rem;
+  height: clamp(50px, 25vw, 500px);
+  width: auto;
+
+  z-index: 1;
+
+  position: absolute;
+}
+.indie {
+  margin: -4.5rem 0rem;
+  height: clamp(50px, 22vw, 500px);
+  width: auto;
+
+  z-index: 1;
+
+  position: absolute;
+}
+
+.p {
   background-color: rgba(208, 208, 208, 0.447);
   border-radius: 1%;
-  padding: 1rem;
-  margin: 3rem -3rem;
+  padding: 2rem;
   width: 40%;
   height: fit-content;
 
-  z-index: 10;
+  font-size: clamp(0.4rem, 1.5vw, 4rem);
+
+  z-index: -11;
 }
 
-.img {
-  background-color: rgb(109, 109, 109);
-  border-radius: 1%;
-
-  width: 30%;
-  aspect-ratio: 5/3;
-}
 .header {
   font-size: clamp(2rem, 2vw, 5rem);
   font-weight: 400;
