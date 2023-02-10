@@ -9,11 +9,10 @@
   list-style-type: none;
 
   flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .li {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .link {

@@ -1,21 +1,42 @@
-.footer {
-  font-size: 1rem;
-}
-
-.wrap {
+.container {
+  padding: 0.5rem 0;
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+
   align-items: center;
 }
 
-.icon {
-  margin: 0 0.5rem;
-  font-size: 1.5rem;
+.links {
+  display: flex;
+  flex-direction: row;
+}
 
+.icon {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
   cursor: pointer;
 }
 
+.linkedin,
+.github,
+.netlify {
+  fill: white;
+  transition: 0.2s ease;
+}
+
+.linkedin:hover {
+  fill: rgb(10, 102, 194);
+}
+
+.github:hover {
+  fill: rgb(0, 0, 0);
+}
+.netlify:hover {
+  fill: rgb(52, 222, 238);
+}
+
 .p {
-  font-size: clamp(0.5rem, 1vw, 5rem);
+  align-self: baseline;
+  font-size: clamp(0.1rem, 0.5vw, 5rem);
 }

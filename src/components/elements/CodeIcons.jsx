@@ -2,11 +2,11 @@
 import styles from "../styles/CodeIcons.module.css";
 
 // Icons
-import { DiGithubBadge } from "react-icons/di"; //github
+import { SiGithub } from "react-icons/si"; //github
 import { DiGit } from "react-icons/di"; //git
-import { DiJavascript1 } from "react-icons/di"; //js
-import { DiReact } from "react-icons/di"; //react
-import { DiVisualstudio } from "react-icons/di"; //vs code
+import { SiJavascript } from "react-icons/si"; //js
+import { SiReact } from "react-icons/si"; //react
+import { SiVisualstudiocode } from "react-icons/si"; //vs code
 import { SiCss3 } from "react-icons/si"; //css
 import { SiFigma } from "react-icons/si"; //figma
 import { SiHtml5 } from "react-icons/si"; //html5
@@ -20,14 +20,14 @@ const Icons = () => {
       <div className={styles.container}>
         <h2 className={styles.headline}>Verktøy jeg bruker daglig </h2>
         <div className={styles.flex}>
-          <DiGithubBadge className={styles.icon} />
-          <DiJavascript1 className={styles.icon} />
+          <SiGithub className={styles.icon} />
+          <SiJavascript className={styles.icon} />
           <SiCss3 className={styles.icon} />
           <SiFigma className={styles.icon} />
           <SiHtml5 className={styles.icon} />
           <SiVite className={styles.icon} />
-          <DiVisualstudio className={styles.icon} />
-          <DiReact className={styles.icon} />
+          <SiVisualstudiocode className={styles.icon} />
+          <SiReact className={styles.icon} />
         </div>
       </div>
       <div className={styles.container}>

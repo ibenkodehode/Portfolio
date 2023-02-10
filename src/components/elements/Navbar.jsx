@@ -11,18 +11,13 @@ const Navbar = () => {
         <img src={logo} alt="logo" className={styles.logo} />
         <ul className={styles.ul}>
           <li className={styles.li}>
-            <a className={styles.link} href="#prosjekter">
-              PROSJEKTER
-            </a>
-          </li>
-          <li className={styles.li}>
-            <a className={styles.link} href="#fav">
-              FAVORITTER
-            </a>
-          </li>
-          <li className={styles.li}>
             <a className={styles.link} href="#om">
               OM MEG
+            </a>
+          </li>
+          <li className={styles.li}>
+            <a className={styles.link} href="#prosjekter">
+              PROSJEKTER
             </a>
           </li>
         </ul>

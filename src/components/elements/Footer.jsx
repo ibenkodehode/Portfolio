@@ -8,28 +8,28 @@ import styles from "../styles/Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
-      <hr className={styles.line} />
-      <div className={styles.wrap}>
+    <footer>
+      <hr />
+      <div className={styles.container}>
         <p lassName={styles.p}>© 2023 Iben Kodehode</p>
-        <div>
+        <div className={styles.links}>
           <a
             href="https://www.linkedin.com/in/iben-tolleshaug-151831261/"
             className={styles.icon}
             target="_blank">
-            <SiLinkedin color="white" />
+            <SiLinkedin className={styles.linkedin} />
           </a>
           <a
             href="https://github.com/ibenkodehode"
             className={styles.icon}
             target="_blank">
-            <SiGithub color="white" />
+            <SiGithub className={styles.github} />
           </a>
           <a
             href="https://app.netlify.com/teams/ibenkodehode/overview"
             className={styles.icon}
             target="_blank">
-            <SiNetlify color="white" />
+            <SiNetlify color="white" className={styles.netlify} />
           </a>
         </div>
       </div>

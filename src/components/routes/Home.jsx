@@ -17,8 +17,8 @@ const Home = () => {
     <div className={styles.container}>
       <Navbar />
       <Landing />
-      <Icons />
       <Arrow />
+      <Icons />
       <About />
       <Projects />
       <Footer />
@@ -33,6 +33,6 @@ export default Home;
 // Hamburger menu
 // Scroll effect
 // New bg?
-// padding landing text
+
 // større font icons
 // weather app link

@@ -1,23 +1,23 @@
 .container {
   text-align: center;
 
-  margin: 3rem 0;
+  margin: clamp(1rem, 5vh, 3rem);
 }
 
-/* Icons used daily ---------------------------- */
 .flex {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
+  gap: 1rem;
 
   margin: 1rem 0;
 }
 
 .headline {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: clamp(1.5rem, 25vw, 1.5rem);
 }
+
 .icon {
   color: rgba(255, 255, 255, 0.505);
   font-size: clamp(2.5rem, 4vw, 5rem);
@@ -28,14 +28,13 @@
   color: rgba(255, 255, 255, 0.89);
 
   transform: scale(1.1);
-
   filter: drop-shadow(0 0 8px #7272728a) drop-shadow(0 0 8px #5bdeff8a);
-  overflow: visible;
 }
 
 .headlines {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: clamp(1.3rem, 22vw, 1.2rem);
+  margin: 0.5rem;
 }
 
 .icons {

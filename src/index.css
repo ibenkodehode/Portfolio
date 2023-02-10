@@ -1,9 +1,8 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1;
 
-  color: rgba(255, 255, 255, 0.87);
+  color: white;
 }
 
 * {
@@ -19,18 +18,16 @@ html {
 body {
   min-width: 320px;
   min-height: 100vh;
-
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0) 0%,
       rgba(255, 255, 255, 0) 30%,
-      #e6e472b9 35%,
-      #e67280cb 50%,
-      #e38060 65%,
-      rgba(70, 147, 255, 0.735) 100%
+      #505050b9 35%,
+      #565656bf 50%,
+
+      rgba(255, 255, 255, 0) 100%
     ),
-    url("/src/img/siri.jpg"); */
-  background-image: url("/src/img/grad.jpg");
+    url("/src/img/siri.jpg");
 
   background-size: cover;
   background-position: 30%;

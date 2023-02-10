@@ -1,45 +1,40 @@
 .section {
   background-image: url("../../img/pink-code-illu.svg");
   background-repeat: no-repeat;
-  background-position: 80% 5%;
-  background-size: clamp(200px, 30vw, 900px);
+  background-position: right;
+  background-size: clamp(300px, 30vw, 900px);
 
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+  padding-left: 3rem;
 }
 
 .firstname {
-  font-size: clamp(2rem, 5vw, 6rem);
+  font-size: clamp(3rem, 5vw, 6rem);
+  line-height: 1;
 }
-
 .lastname {
-  font-size: clamp(2rem, 5vw, 6rem);
-
+  font-size: clamp(3rem, 5vw, 6rem);
+  line-height: 1;
   font-style: italic;
   font-weight: 400;
 }
 
-.intro {
-  font-size: clamp(0.5rem, 0.2rem + 2vw, 1.2rem);
+.depiction {
+  font-size: clamp(1rem, 0.2rem + 2vw, 1.2rem);
   font-weight: 400;
-  width: clamp(190px, 40vw, 500px);
-}
-
-@media only screen and (width <= 1100px) {
-  .section {
-    min-height: 45vh;
-  }
-
-  .span {
-    display: none;
-  }
+  line-height: 130%;
+  width: clamp(270px, 45vw, 700px);
 }
 
 @media only screen and (width <= 550px) {
   .section {
     background-image: none;
-    display: flex;
-    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+
     align-items: center;
-    flex-direction: column;
   }
 }

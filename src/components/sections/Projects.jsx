@@ -112,7 +112,6 @@ const Projects = () => {
           }
           hoverColor="#A43D3A80"
         />
-        <Project />
       </div>
     </section>
   );

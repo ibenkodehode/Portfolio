@@ -16,7 +16,7 @@ const About = () => {
           </p>
           <p className={styles.p}>
             Programmering gikk fra å løse enkle irritasjonsmomenter som
-            utforming av e-bøker til å bli noe jeg ønsker å gjøre proffesjonelt.
+            utforming av e-bøker til å bli noe jeg ønsker å gjøre profesjonelt.
             Det er kontinuerlig nye oppdateringer å utforske, og det er et felt
             jeg stortrives i.
           </p>
