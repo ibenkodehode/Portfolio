@@ -12,12 +12,12 @@
 }
 
 .li {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .link {
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.07rem;
 
@@ -32,5 +32,13 @@
 }
 
 .logo {
-  width: 7vh;
+  width: 6vh;
+
+  margin-left: 3rem;
+}
+
+@media only screen and (width <= 550px) {
+  .logo {
+    margin: 0;
+  }
 }

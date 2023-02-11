@@ -26,7 +26,7 @@
 .github,
 .netlify {
   fill: white;
-  transition: 0.2s ease;
+  transition: 0.5s ease;
 }
 
 .linkedin:hover {
@@ -41,6 +41,5 @@
 }
 
 .p {
-  align-self: baseline;
-  font-size: clamp(0.1rem, 0.5vw, 5rem);
+  font-size: clamp(0.6rem, 1.1vw, 5rem);
 }

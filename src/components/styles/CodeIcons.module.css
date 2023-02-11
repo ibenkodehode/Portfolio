@@ -19,7 +19,7 @@
 }
 
 .icon {
-  color: white;
+  color: rgba(255, 255, 255, 0.505);
   font-size: clamp(2.5rem, 4vw, 5rem);
 
   transition: 0.5s;
@@ -28,7 +28,7 @@
   color: rgba(255, 255, 255, 0.89);
 
   transform: scale(1.1);
-  filter: drop-shadow(0 0 8px #7272728a) drop-shadow(0 0 8px #5bdeff8a);
+  filter: drop-shadow(0 0 8px #d3d3d38a) drop-shadow(0 0 8px #ffa0ff8a);
 }
 
 .headlines {
@@ -47,6 +47,6 @@
   color: rgb(255, 255, 255);
 
   transform: scale(1.1);
-  filter: drop-shadow(0 0 8px #7272728a) drop-shadow(0 0 5px #ffed23c0);
+  filter: drop-shadow(0 0 8px #d3d3d38a) drop-shadow(0 0 5px #e9ff7dc0);
   overflow: visible;
 }

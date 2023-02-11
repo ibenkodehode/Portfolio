@@ -10,7 +10,7 @@ import Error from "./components/routes/Error";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" id="top-page">
       <BrowserRouter>
         <Routes>
           <Route path="/portfolio/" element={<Home />} />

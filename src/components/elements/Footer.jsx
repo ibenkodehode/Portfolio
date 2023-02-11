@@ -11,7 +11,7 @@ const Footer = () => {
     <footer>
       <hr className={styles.hr} />
       <div className={styles.container}>
-        <p lassName={styles.p}>© 2023 Iben Kodehode</p>
+        <p className={styles.p}>© 2023 Iben Tolleshaug</p>
         <div className={styles.links}>
           <a
             href="https://www.linkedin.com/in/iben-tolleshaug-151831261/"

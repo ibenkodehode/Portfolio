@@ -25,7 +25,7 @@ import { TbApi } from "react-icons/tb"; //html5
 const Projects = () => {
   return (
     <section id="prosjekter">
-      <h3 className={styles.header}>Prosjekter</h3>
+      <h3 className={styles.header}>PROSJEKTER</h3>
       <div className={styles.flex}>
         <Project
           src={soundboard}

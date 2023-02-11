@@ -18,7 +18,7 @@ const Icons = () => {
   return (
     <aside>
       <div className={styles.container}>
-        <h2 className={styles.headline}>Verktøy jeg bruker daglig </h2>
+        <h2 className={styles.headline}>VERKTØY</h2>
         <div className={styles.flex}>
           <SiGithub className={styles.icon} />
           <SiJavascript className={styles.icon} />
@@ -31,7 +31,7 @@ const Icons = () => {
         </div>
       </div>
       <div className={styles.container}>
-        <h3 className={styles.headlines}>Verktøy jeg er kjent med</h3>
+        <h3 className={styles.headlines}>UTFORSKER</h3>
         <div className={styles.flex}>
           <DiGit className={styles.icons} />
           <SiTailwindcss className={styles.icons} />

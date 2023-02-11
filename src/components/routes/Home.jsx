@@ -18,8 +18,8 @@ const Home = () => {
       <Navbar />
       <Landing />
       <Arrow />
-      <Icons />
       <About />
+      <Icons />
       <Projects />
       <Footer />
     </div>

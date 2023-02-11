@@ -4,11 +4,9 @@ import portrait from "../../img/ibn.png";
 const About = () => {
   return (
     <section id="om">
-      <h3 className={styles.header}>Om meg</h3>
       <div className={styles.card}>
         <img src={portrait} alt="portrait" className={styles.portrait} />
         <div className={styles.text}>
-          {/* <h3>Jeg, meg og mitt </h3> */}
           <p className={styles.p}>
             Med utvannet sørlandsdialekt, tre spørsmål på tippen av tungen og en
             kompakt chihuahua tvinnet rundt ankelen er jeg stadig på let etter

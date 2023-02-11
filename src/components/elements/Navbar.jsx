@@ -2,11 +2,11 @@
 import styles from "../styles/Navbar.module.css";
 
 // logo
-import logo from "../../img/logo.svg";
+import logo from "../../img/ilt.svg";
 
 const Navbar = () => {
   return (
-    <header id="top-page" className={styles.header}>
+    <header className={styles.header}>
       <nav className={styles.nav}>
         <img src={logo} alt="logo" className={styles.logo} />
         <ul className={styles.ul}>
