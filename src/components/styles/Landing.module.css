@@ -31,7 +31,7 @@
   margin-left: 0.4rem;
 }
 
-@media only screen and (width <= 550px) {
+@media only screen and (max-width: 550px) {
   .section {
     background-image: none;
     margin: 0;
