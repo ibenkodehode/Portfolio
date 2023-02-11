@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.hr {
+  border-color: white;
+}
+
 .links {
   display: flex;
   flex-direction: row;

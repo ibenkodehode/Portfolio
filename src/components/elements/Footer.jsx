@@ -9,7 +9,7 @@ import styles from "../styles/Footer.module.css";
 const Footer = () => {
   return (
     <footer>
-      <hr />
+      <hr className={styles.hr} />
       <div className={styles.container}>
         <p lassName={styles.p}>© 2023 Iben Kodehode</p>
         <div className={styles.links}>
@@ -29,7 +29,7 @@ const Footer = () => {
             href="https://app.netlify.com/teams/ibenkodehode/overview"
             className={styles.icon}
             target="_blank">
-            <SiNetlify color="white" className={styles.netlify} />
+            <SiNetlify className={styles.netlify} />
           </a>
         </div>
       </div>

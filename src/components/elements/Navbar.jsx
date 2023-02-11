@@ -2,7 +2,7 @@
 import styles from "../styles/Navbar.module.css";
 
 // logo
-import logo from "../../img/ibnlogo.svg";
+import logo from "../../img/logo.svg";
 
 const Navbar = () => {
   return (

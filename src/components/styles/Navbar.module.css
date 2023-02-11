@@ -12,20 +12,25 @@
 }
 
 .li {
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .link {
-  color: rgba(255, 255, 255, 0.846);
+  color: white;
+  font-weight: 600;
   text-decoration: none;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.07rem;
 
   transition: 0.3s;
 }
 
 .link:hover {
-  color: rgb(255, 255, 255);
+  color: rgba(234, 234, 234, 0.692);
 }
 .link:active {
-  color: rgb(225, 152, 184);
+  color: rgb(154, 57, 99);
+}
+
+.logo {
+  width: 7vh;
 }

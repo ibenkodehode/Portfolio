@@ -12,10 +12,13 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+
+  color: white;
 }
 
 .headline {
   color: #ff6d6d;
+  text-shadow: 1px 1px 5px rgba(255, 75, 75, 0.734);
   font-style: italic;
   font-weight: 500;
   font-size: 4rem;
@@ -24,6 +27,8 @@
 }
 
 .link {
-  color: rgb(121, 147, 240);
+  color: rgb(112, 141, 249);
+  text-shadow: 1px 1px 3px rgb(162, 182, 255);
+  text-decoration: none;
   font-style: italic;
 }
