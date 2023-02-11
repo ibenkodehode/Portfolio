@@ -67,7 +67,7 @@ const Projects = () => {
           src={weather}
           alt="Screenshot showing a weather app"
           title="Weather"
-          link="github.com/ibenkodehode/weather-app"
+          link="https://github.com/ibenkodehode/weather-app"
           icon={
             <>
               <SiHtml5 /> <SiCss3 /> <DiJavascript1 /> <DiReact />

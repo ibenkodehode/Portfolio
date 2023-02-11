@@ -27,12 +27,3 @@ const Home = () => {
 };
 
 export default Home;
-
-//TODO
-// New logo
-// Hamburger menu
-// Scroll effect
-// New bg?
-
-// større font icons
-// weather app link
