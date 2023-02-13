@@ -5,13 +5,15 @@
 .card {
   background-image: url("../../img/lines.png");
   background-repeat: no-repeat;
-  background-size: min(50% - 4rem, 60rem);
+  background-size: 40%;
+
   background-position: 2vw 3vh;
 
   background-color: rgba(255, 255, 255, 0.196);
   border-radius: 1%;
 
-  width: min(100% - 10vw, 50rem);
+  width: clamp(19rem, 70vw, 90rem);
+
   padding-top: 1rem;
 
   display: flex;
@@ -19,9 +21,16 @@
   align-items: center;
 }
 
+.imgWrap {
+  width: 40%;
+
+  display: flex;
+  justify-content: center;
+}
+
 .portrait {
-  height: 30vw;
-  width: auto;
+  max-height: 40vh;
+  height: auto;
 
   align-self: flex-end;
 }
@@ -33,31 +42,30 @@
   text-align: center;
   line-height: 130%;
 
-  font-size: clamp(0.9rem, 1.4vw, 2rem);
-  width: clamp(15rem, 90%, 30rem);
+  font-size: clamp(1rem, 1.1vw, 2rem);
+  width: 60%;
 }
 
 .p {
-  padding: 1.2rem 2.7rem;
+  padding: 1rem 2rem;
 }
 
-@media all and (max-width: 699px) {
+@media all and (max-width: 799px) {
   .card {
     display: flex;
     flex-direction: column;
 
     padding: 4rem 0 0 0;
 
-    background-size: 35vh;
+    background-size: 80%;
     background-position: 5vw 3vh;
   }
 
   .portrait {
     align-self: center;
-    height: 30vh;
   }
 
   .p {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 }

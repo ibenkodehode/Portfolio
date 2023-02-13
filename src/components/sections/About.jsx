@@ -5,7 +5,10 @@ const About = () => {
   return (
     <section id="om">
       <div className={styles.card}>
-        <img src={portrait} alt="portrait" className={styles.portrait} />
+        <div className={styles.imgWrap}>
+          <img src={portrait} alt="portrait" className={styles.portrait} />
+        </div>
+
         <div className={styles.text}>
           <p className={styles.p}>
             Med utvannet sørlandsdialekt, tre spørsmål på tippen av tungen og en
