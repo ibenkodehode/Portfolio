@@ -17,7 +17,6 @@ import dragon from "../../img/dragon.png";
 import { DiJavascript1 } from "react-icons/di"; //js
 import { DiReact } from "react-icons/di"; //react
 import { SiCss3 } from "react-icons/si"; //css
-import { SiVite } from "react-icons/si"; //vite
 import { SiTailwindcss } from "react-icons/si"; //tailwind
 import { SiHtml5 } from "react-icons/si"; //html5
 import { TbApi } from "react-icons/tb"; //html5
@@ -38,6 +37,7 @@ const Projects = () => {
             </>
           }
           hoverColor="#e7c3d870"
+          about="her skal ting om prosjektet stå lorem dsdkhsjfb jsjb slkjejlks dijnd l hdbj ulae ujhdl skal ting om prosjektet stå lorem dsdkhsjfb jsjb slkjejlks skal ting om prosjektet stå lorem dsdkhsjfb jsjb slkjejlks  ske rhb "
         />
         <Project
           src={generatePassword}

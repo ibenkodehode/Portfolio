@@ -31,6 +31,9 @@ body {
     ),
     url("/src/img/siri.jpg");
 
-  background-size: cover;
-  background-position: 30%;
+  background-size: auto;
+  /* background-size: cover; */
+  background-position: 30% 0%;
+
+  display: block;
 }
