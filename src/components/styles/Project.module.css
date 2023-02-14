@@ -19,6 +19,7 @@
 
   width: 100%;
   height: 100%;
+
   aspect-ratio: auto 16/9;
   border-radius: 1%;
 }
@@ -28,13 +29,13 @@
   height: 0px;
   overflow: hidden;
 
-  transition: all 1.5s ease;
+  transition: all 1s ease-in;
 }
 
 .show {
   opacity: 1;
   height: 200px;
-  transition: all 1s ease;
+  transition: all 1s ease-out;
 }
 
 .card:hover .hover {
@@ -47,7 +48,29 @@
 
   min-height: 100%;
   width: 100%;
+  padding: 1rem 0;
+
   transition: all 1s ease;
   overflow-wrap: break-word;
   text-align: center;
+}
+
+.title {
+  font-weight: 300;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.link {
+  margin: 0.5rem 0;
+  font-weight: 200;
+  font-size: 1rem;
+
+  transition: 0.5s ease;
+
+  color: white;
+}
+
+.link:hover {
+  color: var(--hover_color);
 }
