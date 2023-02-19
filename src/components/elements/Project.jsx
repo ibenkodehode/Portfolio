@@ -18,25 +18,28 @@ const Project = (props) => {
       setClss(styles.hide);
     }
   };
+
   const handleMouseLeave = () => {
     setClss(styles.hide);
   };
+
   return (
-    <div className={styles.card} style={{ "--hover_color": props.hoverColor }}>
+    <div
+      className={styles.card}
+      style={{ "--hover_color": props.hoverColor }}
+      onMouseLeave={handleMouseLeave}>
       <div
         className={styles.container}
         style={{ backgroundImage: `url(${props.src})` }}>
         <div className={styles.hover}>
-          <p>Språk og vertøy brukt i prosjektet</p>
+          <h2 className={styles.h2}>Språk og vertøy brukt i prosjektet</h2>
           <div className={styles.icons}>{props.icon}</div>
-          <BiArrowToBottom
-            onClick={changeClss}
-            onMouseLeave={handleMouseLeave}
-            className={styles.arrow}
-          />
+          <BiArrowToBottom onClick={changeClss} className={styles.arrow} />
           <div className={clss}>
             <p className={styles.about}>{props.about}</p>
-            <p>Sjekk ut mer på Github eller prosjektet live </p>
+            <p className={styles.about}>
+              Sjekk ut mer på Github eller prosjektet live{" "}
+            </p>
             <a href={props.link} className={styles.link} target="_blank">
               <SiGithub />
             </a>
