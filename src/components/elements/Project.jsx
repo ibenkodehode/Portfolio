@@ -3,6 +3,7 @@ import styles from "../styles/Project.module.css";
 
 //icons
 import { SiGithub } from "react-icons/si"; //github
+import { FaPager } from "react-icons/fa"; //webpage
 import { BiArrowToBottom } from "react-icons/bi"; //arrow
 
 //library
@@ -37,12 +38,17 @@ const Project = (props) => {
           <BiArrowToBottom onClick={changeClss} className={styles.arrow} />
           <div className={clss}>
             <p className={styles.about}>{props.about}</p>
-            <p className={styles.about}>
-              Sjekk ut mer på Github eller prosjektet live{" "}
+            <p className={styles.p}>
+              Sjekk ut koden på Github eller se prosjektet live
             </p>
-            <a href={props.link} className={styles.link} target="_blank">
-              <SiGithub />
-            </a>
+            <div>
+              <a href={props.link} className={styles.link} target="_blank">
+                <SiGithub />
+              </a>
+              <a href={props.web} className={styles.link} target="_blank">
+                <FaPager />
+              </a>
+            </div>
           </div>
         </div>
       </div>

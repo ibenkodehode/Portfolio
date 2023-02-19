@@ -72,13 +72,14 @@
 .about {
   font-size: 0.9rem;
 
-  /* margin: 1rem; */
+  margin: 1rem;
 }
-
+.p {
+  font-size: 0.7rem;
+  margin: 0 1.5rem;
+}
 .icons {
   font-size: 1.5rem;
-
-  /* margin: 1rem; */
 }
 
 .link {
@@ -89,7 +90,7 @@
 
   color: white;
 
-  /* margin: 1rem; */
+  margin: 1rem;
 }
 .link:hover {
   color: var(--hover_color);
