@@ -43,6 +43,7 @@
 .arrow {
   font-size: 2rem;
   margin: 1rem 1rem 0 1rem;
+  transition: all 1s ease;
 }
 
 /* default */

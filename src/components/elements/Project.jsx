@@ -3,25 +3,29 @@ import styles from "../styles/Project.module.css";
 
 //icons
 import { SiGithub } from "react-icons/si"; //github
-import { FaPager } from "react-icons/fa"; //webpage
-import { BiArrowToBottom } from "react-icons/bi"; //arrow
+import { BsFillPlayCircleFill } from "react-icons/bs"; //webpage
+import { FiArrowDown } from "react-icons/fi"; //arrow
 
 //library
 import { useState } from "react";
 
 const Project = (props) => {
+  const [rotation, setRotation] = useState(0);
   const [clss, setClss] = useState(styles.hide);
+
   const changeClss = () => {
-    console.log("you just clicked to change class");
     if (clss === styles.hide) {
+      setRotation(180);
       setClss(styles.show);
     } else {
+      setRotation(0);
       setClss(styles.hide);
     }
   };
 
   const handleMouseLeave = () => {
     setClss(styles.hide);
+    setRotation(0);
   };
 
   return (
@@ -37,7 +41,7 @@ const Project = (props) => {
         <div className={styles.hover}>
           <h2 className={styles.h2}>Språk og vertøy brukt i prosjektet</h2>
           <div className={styles.icons}>{props.icon}</div>
-          <BiArrowToBottom onClick={changeClss} className={styles.arrow} />
+
           <div className={clss}>
             <p className={styles.about}>{props.about}</p>
             <p className={styles.p}>
@@ -48,10 +52,15 @@ const Project = (props) => {
                 <SiGithub />
               </a>
               <a href={props.web} className={styles.link} target="_blank">
-                <FaPager />
+                <BsFillPlayCircleFill />
               </a>
             </div>
           </div>
+          <FiArrowDown
+            onClick={changeClss}
+            className={styles.arrow}
+            style={{ transform: `rotate(${rotation}deg)` }}
+          />
         </div>
       </div>
       <h3 className={styles.title}>{props.title}</h3>
@@ -60,3 +69,13 @@ const Project = (props) => {
 };
 
 export default Project;
+
+// const changeClss = () => {
+//   if (clss === styles.hide) {
+//     setRotation(180);
+//     setClss(styles.show);
+//   } else {
+//     setRotation(0);
+//     setClss(styles.hide);
+//   }
+// };
