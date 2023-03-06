@@ -19,6 +19,8 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
+  overflow: hidden;
 }
 
 .imgWrap {
@@ -30,6 +32,7 @@
 
 .portrait {
   max-height: 40vh;
+  width: auto;
   height: auto;
 
   align-self: flex-end;
@@ -43,11 +46,22 @@
   line-height: 130%;
 
   font-size: clamp(1rem, 1.1vw, 2rem);
-  width: 80%;
+  width: 70%;
 }
 
 .p {
   padding: 1rem 2rem;
+}
+
+aside {
+  width: 80vw;
+  /* min-height: fit-content; */
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 2rem;
 }
 
 @media all and (max-width: 799px) {

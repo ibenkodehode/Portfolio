@@ -12,10 +12,10 @@ section {
   align-items: center;
 }
 
-aside {
-  min-height: 90vh;
+/* aside {
+  width: 100%;
+  min-height: fit-content;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
-}
+} */

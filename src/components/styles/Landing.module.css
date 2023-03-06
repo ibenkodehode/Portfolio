@@ -1,7 +1,7 @@
 .section {
   background-image: url("../../img/Illustration.svg");
   background-repeat: no-repeat;
-  background-position: 90% 10%;
+  background-position: 90% 1%;
   background-size: clamp(300px, 35vw, 900px);
 
   display: flex;

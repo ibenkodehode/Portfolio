@@ -1,5 +1,6 @@
 import styles from "../styles/About.module.css";
 import portrait from "../../img/ibn.png";
+import CodeIcons from "../elements/CodeIcons";
 
 const About = () => {
   return (
@@ -23,6 +24,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      <CodeIcons />
     </section>
   );
 };

@@ -19,11 +19,11 @@ import { DiReact } from "react-icons/di"; //react
 import { SiCss3 } from "react-icons/si"; //css
 import { SiTailwindcss } from "react-icons/si"; //tailwind
 import { SiHtml5 } from "react-icons/si"; //html5
-import { TbApi } from "react-icons/tb"; //html5
+import { TbApi } from "react-icons/tb"; //API
 
 const Projects = () => {
   return (
-    <section id="prosjekter">
+    <section id="prosjekter" className={styles.section}>
       <h3 className={styles.header}>PROSJEKTER</h3>
       <div className={styles.flex}>
         <Project
@@ -38,7 +38,7 @@ const Projects = () => {
             </>
           }
           hoverColor="#e7c3d870"
-          about="Dette var den første oppgaven vi fikk etter JavaScript Basic etter tre måneder på kurs. Soundboard med trommelyder spilles når knappene trykkes og når man presser tastene a, s, d, f, g og h på tastaturet. Ble veldig fornøyd med hvor kompriment jeg klarte å lage koden!"
+          about="Første oppgave etter JavaScript Basics. Soundboard med trommelyder som avslilles enten ved å trykke eller bruke tastatur. Høydepunket i denne oppgaven var hvor komprimert jeg kalrte å gjøre koden!"
         />
         <Project
           src={generatePassword}
@@ -66,7 +66,7 @@ const Projects = () => {
             </>
           }
           hoverColor="#C8443380"
-          about="Solo Prosjet fra Scrimba. En enkel side til å telle poeng i kamp. Kan øke poeng fra en til tre, og nullstilles. Her ble det brukt vanilla JavaScript. Her kunne vi endre design etter egen preferanse. "
+          about="Solo Prosjet fra Scrimba. En enkel side til å telle poeng i kamp. Kan øke poeng fra en til tre, og nullstilles. "
         />
         <Project
           src={weather}

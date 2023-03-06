@@ -1,7 +1,6 @@
 //Sections
 import Navbar from "../elements/Navbar";
 import Landing from "../sections/Landing";
-import Icons from "../elements/CodeIcons";
 import Projects from "../sections/Projects";
 import About from "../sections/About";
 
@@ -19,7 +18,6 @@ const Home = () => {
       <Landing />
       <Arrow />
       <About />
-      <Icons />
       <Projects />
       <Footer />
     </div>
