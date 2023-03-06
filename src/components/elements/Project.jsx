@@ -28,10 +28,12 @@ const Project = (props) => {
     <div
       className={styles.card}
       style={{ "--hover_color": props.hoverColor }}
-      onMouseLeave={handleMouseLeave}>
+      onMouseLeave={handleMouseLeave}
+    >
       <div
         className={styles.container}
-        style={{ backgroundImage: `url(${props.src})` }}>
+        style={{ backgroundImage: `url(${props.src})` }}
+      >
         <div className={styles.hover}>
           <h2 className={styles.h2}>Språk og vertøy brukt i prosjektet</h2>
           <div className={styles.icons}>{props.icon}</div>
@@ -41,7 +43,7 @@ const Project = (props) => {
             <p className={styles.p}>
               Sjekk ut koden på Github eller se prosjektet live
             </p>
-            <div>
+            <div className={styles.links}>
               <a href={props.link} className={styles.link} target="_blank">
                 <SiGithub />
               </a>
