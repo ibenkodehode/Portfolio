@@ -12,30 +12,38 @@ import { SiFigma } from "react-icons/si"; //figma
 import { SiHtml5 } from "react-icons/si"; //html5
 import { SiVite } from "react-icons/si"; //vite
 import { SiTailwindcss } from "react-icons/si"; //tailwind
-import { DiNpm } from "react-icons/di"; //npm
+import { SiNpm } from "react-icons/si"; //npm
 
 const Icons = () => {
   return (
     <aside>
       <div className={styles.container}>
-        <h2 className={styles.headline}>VERKTØY</h2>
+        <h3 className={styles.headline}>SPRÅK</h3>
         <div className={styles.flex}>
-          <SiGithub className={styles.icon} />
-          <SiJavascript className={styles.icon} />
-          <SiCss3 className={styles.icon} />
-          <SiFigma className={styles.icon} />
-          <SiHtml5 className={styles.icon} />
-          <SiVite className={styles.icon} />
-          <SiVisualstudiocode className={styles.icon} />
-          <SiReact className={styles.icon} />
+          <SiHtml5 className={styles.icon} title="HTML" />
+          <SiCss3 className={styles.icon} title="CSS" />
+          <SiJavascript className={styles.icon} title="JavaScript" />
+          <SiReact className={styles.icon} title="React" />
         </div>
       </div>
       <div className={styles.container}>
-        <h3 className={styles.headlines}>UTFORSKER</h3>
+        <h2 className={styles.headline}>VERKTØY</h2>
         <div className={styles.flex}>
-          <DiGit className={styles.icons} />
-          <SiTailwindcss className={styles.icons} />
-          <DiNpm className={styles.icons} />
+          <SiGithub className={styles.icon} title="Github" />
+          <SiNpm className={styles.icon} />
+          <SiFigma className={styles.icon} title="Figma" />
+          <SiVite className={styles.icon} title="VITE" />
+          <SiVisualstudiocode
+            className={styles.icon}
+            title="Visualstudiocode"
+          />
+        </div>
+      </div>
+      <div className={styles.container}>
+        <h3 className={styles.headline}>UTFORSKER</h3>
+        <div className={styles.flex}>
+          <DiGit className={styles.icons} title="Git" />
+          <SiTailwindcss className={styles.icons} title="Tailwind" />
         </div>
       </div>
     </aside>
